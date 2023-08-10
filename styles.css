@@ -1,0 +1,23 @@
+body{
+  font-family: Arial, sans-serif;
+}
+.screenshots{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.screenshots img{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.download-link{
+  background-color: lightblue;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
